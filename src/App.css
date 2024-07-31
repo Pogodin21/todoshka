@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Inter', system-ui;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #f3f8fd
+}
+
+.App {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    
+}
+
+.select-block{
+    width: 300px;
+
+    .search {
+        width: 50%;
+    }
+}
+
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    
+    border: 1px solid #000000;
+    width: 300px;
+    padding-left: 10px;
+    /* margin: 0, 0, 25, 0; */
+
+    .more  {
+        display: flex;
+        
+        .trash {
+            border: 1px solid #E67474;
+            margin: 2px;
+        }
+
+        .done {
+            border: 1px solid #2BB85D;
+            margin: 2px;
+        }
+    }
+   
+}
